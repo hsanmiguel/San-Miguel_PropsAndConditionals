@@ -1,2 +1,34 @@
-main {
+.student-card {
+  background-color: #f0f4ff;
+  border: 1px solid #ccd6f6;
+  padding: 16px;
+  margin: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+
+.students-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+
+.student-card:hover {
+  transform: scale(1.02);
+  background-color: #e6edff;
+}
+
+.student-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a237e;
+}
+
+.student-info {
+  font-size: 1rem;
+  color: #333;
 }
